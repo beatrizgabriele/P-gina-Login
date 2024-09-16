@@ -1,0 +1,118 @@
+
+.dropdown-content {
+    width: 100%;
+    flex-shrink: 0;
+}
+
+.top-section{
+    color: rgb(44, 42, 42);
+    float: right;
+    
+}
+.social{
+    padding-top: 20px;
+    float: left;
+}
+
+.card {
+    background-color: rgb(67, 65, 65);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1; 
+    max-width: 200px; 
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.card img{
+    width: 190px;
+}
+.card h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.card p {
+    color: #000000;
+}
+
+ footer {
+    background-color: #090909;
+    color: rgb(243, 240, 240);
+    padding: 40px 0;
+    font-family: Arial, sans-serif; 
+}
+     
+.footer-container {
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.footer-section {
+    flex-basis: 23%;
+    margin-bottom: 20px;
+     
+    }
+     
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #c55011;
+     
+    }
+     
+.footer-section p, .footer-section ul {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+     
+.footer-section ul{
+    list-style-type: none;
+
+    }
+     
+.footer-section ul li {
+    margin-bottom: 10px; 
+}
+ 
+.footer-section ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    transition: color 0.3s;
+ }
+     
+.footer-section ul li a:hover {
+color: #ff6347;
+}
+     
+.social-links a {
+    display: inline-block; 
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+}
+.social-links a:hover {
+    color: #ff6347; 
+}
+     
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+     
+}
+.footer-bottom p { 
+    margin: 0;
+}
